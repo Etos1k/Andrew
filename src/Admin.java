@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class Admin {
+public class Admin extends User{
+    public Admin(String email, String password) {
+        super(email, password);
+    }
 }
